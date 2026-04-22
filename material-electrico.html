@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Material y equipo eléctrico de las mejores marcas: Schneider, Legrand, 3M, Leviton, BTicino, Simon, Condumex y más. Stock inmediato, precios mayoristas.">
+    <meta name="theme-color" content="#E30613">
+    <title>Material Eléctrico | Eléctrica San Miguel · +8,000 productos en stock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA DE URGENCIA -->
+    <div class="urgency-bar">
+        <div class="urgency-track">
+            <div class="urgency-item"><span class="pulse-dot"></span><strong>312 instaladores</strong> consultando este catálogo ahora</div>
+            <div class="urgency-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>Entrega <strong>HOY</strong> si pides antes de las 2:00 PM</div>
+            <div class="urgency-item">Precios válidos por <strong><span id="countdown">23:59:47</span></strong></div>
+            <div class="urgency-item"><span class="pulse-dot"></span><strong>312 instaladores</strong> consultando este catálogo ahora</div>
+            <div class="urgency-item">Entrega <strong>HOY</strong> si pides antes de las 2:00 PM</div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+            <a href="index.html" class="logo">
+                <div class="logo-mark"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h7v8l10-12h-7z"/></svg></div>
+                <div class="logo-text"><span class="logo-title">Eléctrica</span><span class="logo-subtitle">San Miguel · 50 años</span></div>
+            </a>
+            <nav class="nav-desktop">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="material-electrico.html" class="nav-link active">Material Eléctrico</a></li>
+                    <li class="nav-item"><a href="iluminacion.html" class="nav-link">Iluminación</a></li>
+                    <li class="nav-item"><a href="servicios.html" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="catalogos.html" class="nav-link">Catálogos</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="contacto.html" class="header-icon-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></a>
+                <a href="#" class="header-icon-btn cart"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><span class="cart-badge">3</span></a>
+                <a href="https://wa.me/525512345678" class="btn btn-primary btn-header">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+                    <span class="btn-header-text">WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="overlay" id="overlay"></div>
+    <aside class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-logo">
+                <div class="logo-mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h7v8l10-12h-7z"/></svg></div>
+                <div><strong>Eléctrica San Miguel</strong><small>50 años contigo</small></div>
+            </div>
+            <button class="close-menu" id="closeMenuBtn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+        </div>
+        <div class="mobile-search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" placeholder="Buscar productos...">
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html" class="mobile-link">🏠 Inicio</a>
+            <a href="material-electrico.html" class="mobile-link active">⚡ Material Eléctrico</a>
+            <a href="iluminacion.html" class="mobile-link">💡 Iluminación</a>
+            <a href="servicios.html" class="mobile-link">🎓 Servicios</a>
+            <a href="catalogos.html" class="mobile-link">📚 Catálogos PDF</a>
+            <a href="blog.html" class="mobile-link">📝 Blog y Tips</a>
+            <a href="contacto.html" class="mobile-link">📞 Contacto</a>
+        </nav>
+        <div class="mobile-cta-box">
+            <h4>Cotización express</h4>
+            <p>Respuesta en menos de 15 minutos</p>
+            <a href="https://wa.me/525512345678" class="btn btn-primary btn-block">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+                WhatsApp Business
+            </a>
+        </div>
+    </aside>
+
+    <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="page-hero-container">
+                <div class="breadcrumb">
+                    <a href="index.html">Inicio</a>
+                    <span class="sep">/</span>
+                    <span class="current">Material Eléctrico</span>
+                </div>
+                <div class="page-hero-eyebrow">
+                    <span class="pulse-dot"></span>
+                    Catálogo técnico 2026 · Actualizado hoy
+                </div>
+                <h1 class="page-hero-title">
+                    ¿Compras pieza por pieza en <span class="text-gradient-red">3 tiendas</span> distintas?<br>
+                    Aquí encuentras <strong>todo el BOM</strong> de tu obra.
+                </h1>
+                <p class="page-hero-description">
+                    Distribuidores oficiales de <strong>Schneider, Legrand, 3M, Leviton, BTicino, Simon, Condumex</strong> y 30+ marcas más. Control, protección, conductores, canalización y automatización bajo un mismo techo — con factura CFDI y entrega inmediata.
+                </p>
+                <div class="page-hero-stats">
+                    <div class="page-stat"><strong>8,200<em>+</em></strong><small>SKUs en stock físico</small></div>
+                    <div class="page-stat"><strong>30<em>+</em></strong><small>Marcas oficiales</small></div>
+                    <div class="page-stat"><strong>24<em>h</em></strong><small>Despacho garantizado</small></div>
+                    <div class="page-stat"><strong>CFDI</strong><small>Factura electrónica</small></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BANNER SCHNEIDER / PROGRAMA ELECTRICISTAS -->
+        <section style="padding: 40px 0; background: var(--gray-50);">
+            <div class="container">
+                <div style="background: linear-gradient(135deg, #3DCD58 0%, #1a8a2f 100%); border-radius: var(--radius-xl); padding: 40px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; color: white; overflow: hidden; position: relative;">
+                    <div style="position: relative; z-index: 2;">
+                        <div style="display:inline-block;padding:6px 14px;background:rgba(255,255,255,0.2);backdrop-filter:blur(10px);border-radius:999px;font-size:11.5px;font-weight:700;letter-spacing:0.08em;margin-bottom:16px;">⚡ PROGRAMA ELECTRICISTAS</div>
+                        <h2 style="color: white; font-size: 32px; margin-bottom: 12px; letter-spacing: -0.02em;">Somos punto de contacto Schneider Electric</h2>
+                        <p style="color: rgba(255,255,255,0.9); font-size: 15px; margin-bottom: 24px; line-height: 1.6;">Inscríbete GRATIS al programa y gana puntos por cada compra de material Schneider. <strong>Capacitaciones, premios y beneficios exclusivos</strong> para electricistas certificados.</p>
+                        <a href="servicios.html" class="btn btn-primary" style="background: white; color: #1a8a2f;">¿Cómo inscribirme? →</a>
+                    </div>
+                    <div style="position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; font-size: 140px; opacity: 0.9;">⚙️</div>
+                    <div style="position: absolute; inset: 0; background: radial-gradient(circle at 80% 50%, rgba(255,255,255,0.15), transparent 60%);"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FILTROS -->
+        <section style="padding: 60px 0 0; background: var(--white);">
+            <div class="container">
+                <div class="section-header" style="text-align: left; margin-bottom: 32px; max-width: 100%;">
+                    <small class="section-eyebrow">EXPLORA POR CATEGORÍA</small>
+                    <h2 class="section-title">Material y Equipo <span class="text-gradient">Eléctrico</span></h2>
+                    <p class="section-description">Gran surtido de material eléctrico e iluminación para todo tipo de proyectos.</p>
+                </div>
+                <div class="filters-bar">
+                    <button class="filter-chip active">Todas las categorías</button>
+                    <button class="filter-chip">Control y Distribución</button>
+                    <button class="filter-chip">Apagadores y Contactos</button>
+                    <button class="filter-chip">Conductores Eléctricos</button>
+                    <button class="filter-chip">Iluminación</button>
+                    <button class="filter-chip">Terminales y Conectores</button>
+                    <button class="filter-chip">Tuberías y Canalización</button>
+                    <button class="filter-chip">Video Porteros</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- BRAND CATEGORY GRID -->
+        <section style="padding: 20px 0 80px; background: var(--white);">
+            <div class="container">
+                <div class="brands-category-grid">
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">01 · CATEGORÍA</div>
+                                <div class="bcc-name">Control y Distribución</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Legrand</span>
+                            <span class="bcc-brand">Schneider</span>
+                            <span class="bcc-brand">Eaton</span>
+                            <span class="bcc-brand">Cooper</span>
+                            <span class="bcc-brand">ABB</span>
+                            <span class="bcc-brand">Siemens</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 1,420 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="12" r="3"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">02 · CATEGORÍA</div>
+                                <div class="bcc-name">Apagadores y Contactos</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Estevez</span>
+                            <span class="bcc-brand">Schneider</span>
+                            <span class="bcc-brand">Leviton</span>
+                            <span class="bcc-brand">BTicino</span>
+                            <span class="bcc-brand">Lutron</span>
+                            <span class="bcc-brand">Simon</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 980 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 6h16M4 18h16"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">03 · CATEGORÍA</div>
+                                <div class="bcc-name">Conductores Eléctricos</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Condumex</span>
+                            <span class="bcc-brand">Viakon</span>
+                            <span class="bcc-brand">Kobrex</span>
+                            <span class="bcc-brand">Iusa</span>
+                            <span class="bcc-brand">Nacobre</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 620 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">04 · CATEGORÍA</div>
+                                <div class="bcc-name">Iluminación</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Philips</span>
+                            <span class="bcc-brand">Tecnolite</span>
+                            <span class="bcc-brand">Magg</span>
+                            <span class="bcc-brand">Construlita</span>
+                            <span class="bcc-brand">Osram</span>
+                        </div>
+                        <a href="iluminacion.html" class="bcc-link">Ver 3,800 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">05 · CATEGORÍA</div>
+                                <div class="bcc-name">Terminales y Conectores</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">3M</span>
+                            <span class="bcc-brand">Burndy</span>
+                            <span class="bcc-brand">Panduit</span>
+                            <span class="bcc-brand">Thomas & Betts</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 540 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">06 · CATEGORÍA</div>
+                                <div class="bcc-name">Tuberías y Canalización</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Polyflex</span>
+                            <span class="bcc-brand">Omega</span>
+                            <span class="bcc-brand">Carlon</span>
+                            <span class="bcc-brand">Hidro Rex</span>
+                            <span class="bcc-brand">Tubacero</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 780 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">07 · CATEGORÍA</div>
+                                <div class="bcc-name">Video Porteros</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Intec</span>
+                            <span class="bcc-brand">BTicino</span>
+                            <span class="bcc-brand">Comelit</span>
+                            <span class="bcc-brand">Fermax</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 240 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card">
+                        <div class="bcc-header">
+                            <div class="bcc-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title">08 · CATEGORÍA</div>
+                                <div class="bcc-name">Más para Complementar</div>
+                            </div>
+                        </div>
+                        <div class="bcc-brands">
+                            <span class="bcc-brand">Elcon</span>
+                            <span class="bcc-brand">Nitto</span>
+                            <span class="bcc-brand">Trussa</span>
+                            <span class="bcc-brand">Duracell</span>
+                            <span class="bcc-brand">Truper</span>
+                            <span class="bcc-brand">Klein</span>
+                        </div>
+                        <a href="#" class="bcc-link">Ver 1,820 productos <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    </div>
+
+                    <div class="brand-category-card" style="background: linear-gradient(135deg, var(--black), var(--gray-900)); color: white; border-color: transparent;">
+                        <div style="position: absolute; top: -60px; right: -60px; width: 180px; height: 180px; background: radial-gradient(circle, rgba(227,6,19,0.4), transparent 70%); border-radius: 50%;"></div>
+                        <div class="bcc-header" style="border-color: rgba(255,255,255,0.1);">
+                            <div class="bcc-icon" style="background: rgba(227,6,19,0.2); color: var(--red-light);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            </div>
+                            <div>
+                                <div class="bcc-title" style="color: rgba(255,255,255,0.5);">EXCLUSIVO</div>
+                                <div class="bcc-name" style="color: white;">Línea San Miguel</div>
+                            </div>
+                        </div>
+                        <p style="color: rgba(255,255,255,0.7); font-size: 13.5px; line-height: 1.55; margin-bottom: 18px; position: relative;">Nuestra línea propia con <strong style="color: white;">20% menos costo</strong> y la misma calidad garantizada por 50 años.</p>
+                        <a href="#" style="color: var(--red-light); font-size: 13px; font-weight: 600; position: relative;">Conocer línea exclusiva →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 50 AÑOS CONTIGO -->
+        <section style="padding: 80px 0; background: var(--gray-50);">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; background: white; border-radius: var(--radius-xl); padding: 48px; box-shadow: var(--shadow-md);">
+                    <div>
+                        <small class="section-eyebrow">50 AÑOS CONTIGO</small>
+                        <h2 style="font-size: 36px; margin: 12px 0 16px; letter-spacing: -0.02em; line-height: 1.1;">Tu <span class="text-gradient">socio estratégico</span> desde 1976</h2>
+                        <p style="font-size: 15px; color: var(--gray-700); line-height: 1.6; margin-bottom: 24px;">Medio siglo de consolidarnos a la vanguardia de nuestros asesores comerciales, que te brindan las mejores alternativas de producto y precio. Profesionales y personal certificado a tu servicio, cuando más lo necesitas.</p>
+                        <a href="contacto.html" class="btn btn-primary">Contáctanos →</a>
+                    </div>
+                    <div style="position: relative; height: 300px; background: linear-gradient(135deg, var(--red), var(--red-dark)); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                        <div style="position: absolute; inset: 0; background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 2px, transparent 2px, transparent 20px);"></div>
+                        <div style="text-align: center; color: white; position: relative;">
+                            <div style="font-size: 120px; font-weight: 900; line-height: 1; letter-spacing: -0.05em;">50</div>
+                            <div style="font-size: 16px; font-weight: 700; letter-spacing: 0.2em; margin-top: -10px;">AÑOS ILUMINANDO</div>
+                            <div style="font-size: 12px; opacity: 0.8; letter-spacing: 0.1em; margin-top: 4px;">PROYECTOS EN MÉXICO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="final-cta">
+            <div class="container">
+                <div class="final-cta-box">
+                    <div class="final-cta-glow"></div>
+                    <div class="final-cta-content">
+                        <div class="final-cta-badge"><span class="pulse-dot"></span>Stock limitado · Precios válidos por 24h</div>
+                        <h2>Arma tu <span class="text-gradient">BOM completo</span> con nosotros</h2>
+                        <p>Nuestros asesores técnicos revisan tu lista de material y te devuelven una <strong>cotización completa en menos de 15 minutos</strong>. Sin costo, sin compromiso.</p>
+                        <div class="final-cta-actions">
+                            <a href="contacto.html" class="btn btn-primary btn-xl">Cotizar mi lista ahora →</a>
+                            <a href="https://wa.me/525512345678" class="btn btn-ghost-light btn-xl">WhatsApp Business</a>
+                        </div>
+                        <div class="final-cta-trust">
+                            <span>⚡ Respuesta en 15 min</span>
+                            <span>🚚 Entrega mismo día</span>
+                            <span>📄 CFDI automático</span>
+                            <span>💳 Crédito 30/60/90</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-mark"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h7v8l10-12h-7z"/></svg></div>
+                        <div class="logo-text"><span class="logo-title">Eléctrica</span><span class="logo-subtitle">San Miguel · Desde 1976</span></div>
+                    </a>
+                    <p>Distribuidora líder de material eléctrico en México. 50 años iluminando los proyectos que transforman el país.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Catálogo</h5>
+                    <a href="material-electrico.html">Material Eléctrico</a>
+                    <a href="iluminacion.html">Iluminación</a>
+                    <a href="catalogos.html">Catálogos PDF</a>
+                    <a href="#">Ofertas del mes</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Servicios</h5>
+                    <a href="servicios.html">Capacitaciones</a>
+                    <a href="servicios.html">Asesoría técnica</a>
+                    <a href="servicios.html">Facturación</a>
+                    <a href="servicios.html">Proyectos a medida</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Empresa</h5>
+                    <a href="#">Sobre nosotros</a>
+                    <a href="contacto.html">Sucursales</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h5>Contacto Directo</h5>
+                    <div class="contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><small>Matriz Ermita</small><strong>55 5539 6882</strong></div></div>
+                    <div class="contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><small>Sucursal Carrillo</small><strong>55 5386 0755</strong></div></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <small>© 2026 Eléctrica San Miguel · 50 años iluminando México</small>
+                <div class="footer-links"><a href="#">Aviso de Privacidad</a><a href="#">Términos</a><a href="#">Cookies</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/525512345678" class="whatsapp-fab">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+        <span class="wa-pulse"></span>
+        <span class="wa-tooltip">Cotiza en 15 min</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

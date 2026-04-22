@@ -2721,6 +2721,11 @@ h1, h2, h3, h4, h5 {
 .bai-3 { background: linear-gradient(135deg, #dbeafe, #3b82f6); }
 .bai-4 { background: linear-gradient(135deg, #dcfce7, #16a34a); }
 .bai-5 { background: linear-gradient(135deg, #fecaca, #dc2626); }
+.bai-6 { background: linear-gradient(135deg, #ede9fe, #7c3aed); }
+.bai-7 { background: linear-gradient(135deg, #ecfdf5, #059669); }
+.bai-8 { background: linear-gradient(135deg, #fff7ed, #ea580c); }
+.bai-9 { background: linear-gradient(135deg, #f0f9ff, #0284c7); }
+.bai-10 { background: linear-gradient(135deg, #fdf4ff, #c026d3); }
 .blog-article-body { padding: 28px 28px 28px 0; display: flex; flex-direction: column; }
 .blog-article-body .blog-meta { margin-bottom: 12px; }
 .blog-article-body h2 {
